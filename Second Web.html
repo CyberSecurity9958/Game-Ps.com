@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.ps5Gamer.com</title>
+    <link rel="stylesheet" href="Second Web.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="img57.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="#">Game Controllers</a></li>
+                    <li><a href="#">VR Accessories</a></li>
+                    <li><a href="#">Media Remotes</a></li>
+                    <li><a href="#">Other</a></li>
+                </ul>
+            </nav>
+            <img src="img62.png" class="menu-icon"
+             onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>PS5 V3<br>Gaming World</h2>
+                <h3>Wireless Controller for PlayStation 5</h3>
+                <p>(Compatiable/Gamers)</p>
+                <h4>$50.25</h4> 
+                <button class="button">Buy Now <img src="img60.png"></button>
+                  
+            </div>
+            <div class="col-2">
+                <img src="img59.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="img61.png">
+                    <p><small>Add to Cart</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <img src="img63.png">
+            <img src="img64.png">
+            <img src="img65.png">
+        </div>
+
+    </div>
+
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0xp";
+            }
+            
+        }
+    </script>
+
+</body>
+</html>
